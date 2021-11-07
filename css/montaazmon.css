@@ -15,6 +15,8 @@ body {
     background-color: #fafafa;
     font-size: 12px;
     padding-right: 24px;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -106,6 +108,8 @@ a.login:hover {
     width: 100%;
     height: 136px;
     background-color: #143FDD;
+    position: sticky;
+    top: 39px;
 }
 
 .form-container-content {
@@ -123,12 +127,12 @@ a.login:hover {
 
 .form-container-input {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     margin: auto;
     width: 65%;
     height: 60px;
-    background-color: #143FDDd;
+    background-color: #143FDD;
     color: white;
 }
 
