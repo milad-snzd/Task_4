@@ -11,7 +11,6 @@ body {
 .menu-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
     height: 38.98px;
     background-color: #fafafa;
     font-size: 12px;
@@ -71,7 +70,7 @@ li a:hover {
 .login-container {
     display: flex;
     flex-direction: row-reverse;
-    width: 467px;
+    width: 480px;
     padding-left: 24px;
     font-size: 12px;
     font-weight: 500;
@@ -105,7 +104,7 @@ a.login:hover {
 
 .form-containers {
     width: 100%;
-    height: 90px;
+    height: 136px;
     background-color: #143FDD;
 }
 
@@ -113,88 +112,47 @@ a.login:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 28px;
+    margin: auto;
+    width: 394;
+    height: 48px;
     font-weight: 600;
-    font-size: 11px;
+    line-height: 24px;
     background-color: #143FDD;
     color: white;
 }
 
 .form-container-input {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
+    margin: auto;
+    width: 65%;
     height: 60px;
-    background-color: #143FDD;
+    background-color: #143FDDd;
     color: white;
 }
 
 input {
-    width: 230px;
-    height: 30px;
+    width: 292px;
+    height: 44px;
     padding: 6px 10px;
     margin: 8px 0;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 16px;
     font-size: 12px;
     font-family: dana;
     font-weight: 500;
 }
 
 .button {
-    width: 230px;
-    height: 30px;
+    width: 292px;
+    height: 44px;
     padding: 6px 10px;
     margin: 8px 0;
     color: white;
     background-color: #FFB300;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 16px;
     font-family: dana;
     font-weight: 500;
-}
-
-.container-four {
-    display: grid;
-    width: 1361px;
-    height: 1444px;
-    background-color: #FFFFFF;
-    justify-content: space-around;
-    border-radius: 20px;
-    margin: 15px auto;
-}
-
-.item {
-    display: flex;
-    width: 100%;
-    height: 24px;
-    background-color: yellow;
-    font-style: normal;
-    font-weight: 600;
-    font-family: dana;
-    font-size: 14px;
-    margin: 15px;
-}
-
-.item1 {
-    display: flex;
-    width: 421px;
-    height: 122.26;
-    background-color: tomato;
-}
-
-.item2 {
-    display: flex;
-    width: 421px;
-    height: 122.26;
-    background-color: blueviolet;
-}
-
-.item3 {
-    display: flex;
-    width: 421px;
-    height: 122.26;
-    background-color: burlywood;
 }
