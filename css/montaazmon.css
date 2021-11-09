@@ -254,6 +254,7 @@ button.button:hover {
     font-size: 40px;
     padding-left: 5px;
     color: rgb(68, 68, 68);
+    font-weight: 600;
 }
 
 .total {
@@ -263,6 +264,7 @@ button.button:hover {
     font-size: 20px;
     width: 10px;
     height: 20px;
+    color: rgb(146, 145, 145)
 }
 
 .azmon {
