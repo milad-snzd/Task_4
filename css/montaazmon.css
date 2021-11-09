@@ -331,3 +331,94 @@ button.button:hover {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+.container-five {
+    width: 1296px;
+    height: 550px;
+    background-color: white;
+    margin: 25px auto;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.box-why {
+    display: flex;
+    direction: ltr;
+    width: 1050px;
+    height: 465px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+.box-why-pic {
+    width: 665px;
+    height: 465px;
+    background-color: white;
+    margin-right: 20px;
+    position: relative;
+}
+
+.image-title {
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    color: white;
+}
+
+.picture {
+    width: 665px;
+    height: 465px;
+}
+
+.box-why-button {
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    height: 465px;
+    background-color: white;
+    font-weight: 500;
+}
+
+.button-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 321px;
+    height: 100%;
+    background-color: white;
+}
+
+.button-list-one {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #FFB300;
+    font-size: 14px;
+}
+
+.one {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    color: white;
+}
+
+.button-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #D8D8D8;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.column {
+    width: 5px;
+    height: 465px;
+    background-color: #D8D8D8;
+}
