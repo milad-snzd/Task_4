@@ -142,6 +142,7 @@ input {
     padding: 6px 10px;
     margin: 8px 0;
     border: 1px solid #ccc;
+    outline: none;
     border-radius: 16px;
     font-size: 12px;
     font-family: dana;
@@ -152,11 +153,123 @@ input {
     width: 292px;
     height: 44px;
     padding: 6px 10px;
-    margin: 8px 0;
     color: white;
     background-color: #FFB300;
     border: 1px solid #ccc;
     border-radius: 16px;
     font-family: dana;
     font-weight: 500;
+    line-height: 20px;
+}
+
+button.button:hover {
+    background-color: #ff9900;
+}
+
+.container-four {
+    width: 1296px;
+    height: 1444px;
+    background-color: white;
+    margin: 25px auto;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.title {
+    width: 100%;
+    height: 44.48px;
+    background-color: white;
+}
+
+.title-content {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box {
+    width: 100%;
+    height: 238px;
+    background-color: ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-slider {
+    width: 421.33px;
+    height: 238px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    border: 0.083rem solid rgb(231, 231, 231);
+}
+
+.box-slider-pic {
+    width: 421.33px;
+    height: 123.98px;
+    background-color: #fafafa;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image {
+    width: 421.33px;
+    height: 123.98px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-slider-content {
+    width: 421.33px;
+    height: 96.19px;
+    background-color: #F9F9F9;
+    font-size: 14px;
+}
+
+.box-slider-content-level {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 50.19px;
+    background-color: #F9F9F9;
+}
+
+.box-slider-content-price {
+    width: 100%;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+    color: rgb(146, 145, 145);
+}
+
+.box-slider-content-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #F9F9F9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.number {
+    font-size: 40px;
+    padding-left: 5px;
+    color: rgb(68, 68, 68);
+}
+
+.total {
+    display: flex;
+    align-self: center;
+    padding: 5px;
+    font-size: 20px;
+    width: 10px;
+    height: 20px;
+}
+
+.azmon {
+    color: rgb(87, 85, 85);
+    border-bottom: 1px solid gray;
+    text-decoration: none;
 }
