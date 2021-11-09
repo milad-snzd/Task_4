@@ -168,7 +168,7 @@ button.button:hover {
 
 .container-four {
     width: 1296px;
-    height: 1444px;
+    height: 1325px;
     background-color: white;
     margin: 25px auto;
     border-radius: 20px;
@@ -192,6 +192,7 @@ button.button:hover {
     background-color: ;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .box-slider {
@@ -205,14 +206,13 @@ button.button:hover {
 .box-slider-pic {
     width: 421.33px;
     height: 123.98px;
-    background-color: #fafafa;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 .image {
     width: 421.33px;
     height: 123.98px;
+    background-color: #e2e2e2;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -230,7 +230,6 @@ button.button:hover {
     align-items: baseline;
     width: 100%;
     height: 50.19px;
-    background-color: #F9F9F9;
 }
 
 .box-slider-content-price {
@@ -238,7 +237,6 @@ button.button:hover {
     height: 19px;
     display: flex;
     justify-content: center;
-    background-color: #F9F9F9;
     color: rgb(146, 145, 145);
 }
 
@@ -248,7 +246,6 @@ button.button:hover {
     align-items: center;
     width: 100%;
     height: 45px;
-    background-color: #F9F9F9;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -272,4 +269,63 @@ button.button:hover {
     color: rgb(87, 85, 85);
     border-bottom: 1px solid gray;
     text-decoration: none;
+}
+
+.box-slider-row-four {
+    width: 635px;
+    height: 240px;
+    margin-top: 15px;
+    border: 0.083rem solid rgb(231, 231, 231);
+    border-radius: 20px;
+}
+
+.box-slider-row-four-pic {
+    width: 100%;
+    height: 52%;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+}
+
+.image-paye {
+    width: 421.33px;
+    height: 123.98px;
+    background-color: #e2e2e2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-slider-row-four-content {
+    width: 100%;
+    height: 47.8%;
+    background-color: #F9F9F9;
+    font-size: 14px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box-slider-row-four-content-level {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 45%;
+}
+
+.box-slider-row-four-content-price {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    color: rgb(146, 145, 145);
+}
+
+.box-slider-row-four-content-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
