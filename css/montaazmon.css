@@ -17,6 +17,7 @@ body {
     padding-right: 24px;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 .logo {
@@ -110,6 +111,7 @@ a.login:hover {
     background-color: #143FDD;
     position: sticky;
     top: 39px;
+    z-index: 1;
 }
 
 .form-container-content {
@@ -357,6 +359,7 @@ button.button:hover {
     background-color: white;
     margin-right: 20px;
     position: relative;
+    border-radius: 20px;
 }
 
 .image-title {
@@ -369,6 +372,7 @@ button.button:hover {
 .picture {
     width: 665px;
     height: 465px;
+    z-index: -1;
 }
 
 .box-why-button {
