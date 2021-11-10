@@ -261,10 +261,11 @@ button.button:hover {
     display: flex;
     align-self: center;
     padding: 5px;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 800;
     width: 10px;
     height: 20px;
-    color: rgb(146, 145, 145)
+    color: #D8D8D8;
 }
 
 .azmon {
@@ -421,4 +422,96 @@ button.button:hover {
     width: 5px;
     height: 465px;
     background-color: #D8D8D8;
+}
+
+.container-six {
+    width: 1296px;
+    height: 613px;
+    background-color: white;
+    margin: 0px auto;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.button-levels {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 444px;
+    height: 32px;
+    background-color: white;
+}
+
+.level-one {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB300;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.level {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    color: #6C6C6C;
+    border: 1px solid rgb(221, 221, 221);
+    font-size: 14px;
+}
+
+.box-banner {
+    display: flex;
+    justify-content: space-between;
+    width: 1295px;
+    height: 550px;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.box-banner-item {
+    width: 421px;
+    height: 540px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.box-banner-image {
+    width: 421px;
+    height: 421px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.box-banner-link-one {
+    width: 421px;
+    height: 60.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #6C6C6C;
+}
+
+.box-banner-link-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 421px;
+    height: 60.5px;
+}
+
+.all-book {
+    color: #6C6C6C;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    font-weight: 500;
 }
