@@ -418,7 +418,7 @@ input {
     background-color: #D8D8D8;
 }
 
-.container-six {
+.montaazmon-summer {
     width: 1296px;
     height: 613px;
     background-color: white;
@@ -427,7 +427,7 @@ input {
     padding: 24px;
 }
 
-.button-levels {
+.field-button {
     display: flex;
     justify-content: space-between;
     margin: 0px auto;
@@ -436,7 +436,7 @@ input {
     background-color: white;
 }
 
-.level-one {
+.field-one {
     width: 140px;
     display: flex;
     justify-content: center;
@@ -448,7 +448,7 @@ input {
     cursor: pointer;
 }
 
-.level {
+.field {
     width: 140px;
     display: flex;
     justify-content: center;
@@ -460,7 +460,7 @@ input {
     cursor: pointer;
 }
 
-.box-banner {
+.montaazmon-summer-banner {
     display: flex;
     justify-content: space-between;
     width: 1295px;
@@ -469,7 +469,7 @@ input {
     margin-top: 16px;
 }
 
-.box-banner-item {
+.montaazmon-summer-item {
     width: 421px;
     height: 540px;
     background-color: #F9F9F9;
@@ -477,7 +477,7 @@ input {
     border: 1px solid rgb(240, 240, 240);
 }
 
-.box-banner-image {
+.montaazmon-summer-image {
     width: 421px;
     height: 421px;
     border-top-left-radius: 20px;
@@ -485,7 +485,7 @@ input {
     border-bottom: 1px solid rgb(240, 240, 240);
 }
 
-.box-banner-link-one {
+.montaazmon-summer-link {
     width: 421px;
     height: 60.5px;
     display: flex;
@@ -495,7 +495,7 @@ input {
     color: #6C6C6C;
 }
 
-.box-banner-link-two {
+.montaazmon-summer-report {
     display: flex;
     justify-content: center;
     align-items: center;
