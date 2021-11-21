@@ -146,6 +146,7 @@ input {
     border-radius: 16px;
     font-size: 12px;
     font-weight: 500;
+    font-family: dana;
 }
 
 .applying {
@@ -158,6 +159,7 @@ input {
     border-radius: 16px;
     font-weight: 500;
     line-height: 20px;
+    font-family: dana;
 }
 
 .applying:hover {
