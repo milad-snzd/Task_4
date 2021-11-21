@@ -164,7 +164,7 @@ input {
     background-color: #ff9900;
 }
 
-.container-four {
+.montaazmon-card {
     width: 1296px;
     height: 1325px;
     background-color: white;
@@ -173,27 +173,22 @@ input {
     padding: 16px;
 }
 
-.title {
+.card-title {
     width: 100%;
     height: 44.48px;
     background-color: white;
 }
 
-.title-content {
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.box {
+.cards-box {
     width: 100%;
     height: 238px;
-    background-color: ;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
 }
 
-.box-slider {
+.card-slider {
     width: 421.33px;
     height: 238px;
     background-color: #fafafa;
@@ -201,13 +196,13 @@ input {
     border: 0.083rem solid rgb(231, 231, 231);
 }
 
-.box-slider-pic {
+.card-pic {
     width: 421.33px;
     height: 123.98px;
     border-bottom: 1px solid rgb(231, 231, 231);
 }
 
-.image {
+.card-image {
     width: 421.33px;
     height: 123.98px;
     background-color: #e2e2e2;
@@ -215,14 +210,13 @@ input {
     border-top-right-radius: 20px;
 }
 
-.box-slider-content {
+.card-text {
     width: 421.33px;
     height: 96.19px;
-    background-color: #F9F9F9;
     font-size: 14px;
 }
 
-.box-slider-content-level {
+.card-level {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -230,7 +224,7 @@ input {
     height: 50.19px;
 }
 
-.box-slider-content-price {
+.card-price {
     width: 100%;
     height: 19px;
     display: flex;
@@ -238,7 +232,7 @@ input {
     color: rgb(146, 145, 145);
 }
 
-.box-slider-content-view {
+.card-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,14 +242,14 @@ input {
     border-bottom-right-radius: 20px;
 }
 
-.number {
+.card-number {
     font-size: 40px;
     padding-left: 5px;
     color: rgb(68, 68, 68);
     font-weight: 600;
 }
 
-.total {
+.card-plus {
     display: flex;
     align-self: center;
     padding: 5px;
@@ -266,7 +260,7 @@ input {
     color: #D8D8D8;
 }
 
-.azmon {
+.print-azmon {
     color: rgb(87, 85, 85);
     border-bottom: 1px solid gray;
     text-decoration: none;
