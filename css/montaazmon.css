@@ -325,7 +325,7 @@ input {
     border-bottom-right-radius: 20px;
 }
 
-.container-five {
+.montaazmon-why {
     width: 1296px;
     height: 550px;
     background-color: white;
@@ -334,7 +334,7 @@ input {
     padding: 16px;
 }
 
-.box-why {
+.montaazmon-why-image {
     display: flex;
     direction: ltr;
     width: 1050px;
@@ -343,7 +343,7 @@ input {
     margin: 0px auto;
 }
 
-.box-why-pic {
+.montaazmon-why-content {
     width: 665px;
     height: 465px;
     background-color: white;
@@ -352,7 +352,7 @@ input {
     border-radius: 20px;
 }
 
-.image-title {
+.montaazmon-why-title {
     position: absolute;
     top: 30px;
     left: 115px;
@@ -365,7 +365,7 @@ input {
     z-index: -1;
 }
 
-.box-why-button {
+.montaazmon-why-buttons {
     display: flex;
     justify-content: space-between;
     width: 385px;
@@ -374,7 +374,7 @@ input {
     font-weight: 500;
 }
 
-.button-lists {
+.verticalcontent {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -383,7 +383,7 @@ input {
     background-color: white;
 }
 
-.button-list-one {
+.verticalcontent-slider-color {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -393,7 +393,7 @@ input {
     font-size: 14px;
 }
 
-.one {
+.number-verticalcontent {
     width: 15%;
     display: flex;
     justify-content: center;
@@ -401,7 +401,7 @@ input {
     color: white;
 }
 
-.button-list {
+.verticalcontent-slider {
     display: flex;
     justify-content: flex-end;
     align-items: center;
